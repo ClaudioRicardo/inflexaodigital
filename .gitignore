@@ -1,0 +1,10 @@
+#Ignorando pastas geradas para o ambiente
+
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/bin
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/compiler_compat
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/conda-meta
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/include
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/lib
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/share
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/ssl
+posts/a-coleta-como-princípio-da-mineração-de-dados-na-web/x86_64-conda_cos6-linux-gnu
