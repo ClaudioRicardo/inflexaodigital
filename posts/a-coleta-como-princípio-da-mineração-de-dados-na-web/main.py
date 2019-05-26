@@ -37,7 +37,7 @@ def get_table(url):
 
 
 if __name__=="__main__":
-    url = "http://127.0.0.1:8000/blog/a-coleta-de-dados-como-princ%C3%ADpio-da-minera%C3%A7%C3%A3o-de-dados-na-web-com-python/"
+    url = "http://localhost:8000/posts/a-coleta-como-princ%C3%ADpio-da-minera%C3%A7%C3%A3o-de-dados-na-web/"
     print(get_table(url))
 
 
