@@ -1,0 +1,80 @@
+@define-color bg_color #535353;
+@define-color fnt_color #535353;
+@define-color border_color #E4E4E4;
+
+GtkWindow {
+    background-color: @bg_color;
+}
+
+
+.grid{
+	background-image: none;
+	background-color:@bg_color;
+	/*border-color:#535353;*/
+	border:none;
+	border-bottom:1px solid ;
+	/*border:5px solid red;*/
+	/*padding:20px;
+	margin:20px;*/
+}
+
+/*.image{
+	padding:5px;
+	margin:5px;
+}*/
+
+.label{
+	padding:5px;
+	margin:5px;	
+	/*color: #FFFFFF;*/
+}
+
+#lbl_fields{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+#title{
+ 	color: #FFFFFF;
+ 	font-size: 20px;
+}
+
+#grd_form_prod > .cell{
+	padding:20px;
+	margin: 20px;
+
+}
+
+.entry{
+	margin:5px;
+	padding: 5px;
+	border-radius: 0px;
+	border:1px solid #535353;
+
+}
+
+.entry:focus{
+	background-image: none;
+	background-color: #DDDD88;	
+	/*color:#FFFFFF;*/
+}
+
+
+.button{
+	background-image: none;
+	background-color:#008B8B; 
+	/*font-weight: bold;*/
+	color: #FFFFFF;
+	border-radius:0px;
+	border:none;
+	border-bottom:1px solid #008B8B;
+	box-shadow: none;
+	padding: 20px;
+	font-size:12px;
+}
+
+.button:hover{
+	background-image: none;
+	background-color:#20B2AA; 
+}
