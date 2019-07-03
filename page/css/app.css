@@ -1,0 +1,134 @@
+body{
+	/*font-family: 'Ubuntu', sans-serif;*/
+    /*font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;*/
+
+    font-family:"Helvetica Neue", Arial, sans-serif;
+}
+
+
+.bg-color-jumb{
+	/*background-color: #4682B4;*/
+	/*font-family: 'Permanent Marker', cursive;*/
+	background-image: linear-gradient(#008B8B 60%, #20B2AA);
+	color:#FFFFFF!important;
+}
+
+footer{
+	background-color:#008B8B;
+	color:#FFFFFF!important;	
+}
+
+.rel_tag_cat{
+	background-color: #333333;
+	color:#F2F2F2;
+	text-align: left;
+	margin-top: -50px!important;
+	border-radius: 2px;
+}
+
+.rel_tag_cat > h5{
+	text-align: center!important;
+}
+
+.bg-color-jumb >nav > div > ul > li > a{
+	color:#FFFFFF!important;
+}
+
+.bg-color-jumb >nav > div > ul > li.selected{
+	background-color: #20B2AA;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.bg-color-jumb >nav > div > ul > li.selected > a{
+	color:#FFCC66!important;
+}
+
+
+.justificado{
+	text-align: justify;
+}
+
+.bg-color-jumb >nav > a{
+	color:#FFFFFF!important;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.post-home-img{
+	width: 750px;
+	height: 332px;
+}
+
+.post-text-resumo{
+	color:#565656;
+	/*border-top:2px solid #DCDCDC;
+	border-bottom:2px solid #DCDCDC;*/
+	height: 332px;
+}
+
+
+.post-text-resumo > h3{
+	font-weight: bolder;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+.post-text-resumo > h3 > a{
+	text-decoration: none;
+	color:#565656;
+}
+
+.post-text-resumo > small{
+	font-style: italic;
+	/*font-weight: bold;*/
+}
+
+
+.post-text-resumo > p{
+	font-size: 14px;
+}
+
+
+.group-cat > p{
+	font-size:12px;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+
+.categorias{
+  background-color: #008B8B;
+  border-radius: 2px;
+  width: auto;
+  padding:5px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  color:#FFFFFF;
+  font-size:10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.tags{
+  background-color: #008B8B;
+  border-radius: 2px;
+  width: auto;
+  padding:5px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  font-size:10px;
+  font-weight: bold;
+  font-style: italic;
+}
+.tags > a{
+	color:#FFFFFF;	
+}
+

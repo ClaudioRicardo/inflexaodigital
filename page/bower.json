@@ -1,0 +1,21 @@
+{
+  "name": "inflexaodigital",
+  "homepage": "https://github.com/ClaudioRicardo/inflexaodigital",
+  "authors": [
+    "claudio_ric_uerj <silverbolt3@gmail.com>"
+  ],
+  "description": "página pessoal",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
