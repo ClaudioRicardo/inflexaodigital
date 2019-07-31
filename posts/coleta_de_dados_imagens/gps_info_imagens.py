@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
-import sys, os, shutil, base64
 from PIL import Image
 from PIL.ExifTags import TAGS
 from PIL.ExifTags import GPSTAGS
+import requests
+from io import BytesIO
 
 
 def get_image():
-    img_path = 'images/20190518_092637.jpg'
-    img = Image.open(img_path);
+    img_path = 'https://raw.githubusercontent.com/ClaudioRicardo/inflexaodigital/master/posts/coleta_de_dados_imagens/images/20190518_092637.jpg'
+    response = requests.get(img_path)
+    img = Image.open(BytesIO(response.content))
     return img
 
 
